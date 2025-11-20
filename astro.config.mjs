@@ -10,6 +10,7 @@ export default defineConfig({
 		starlight({
 			title: 'Student led confrence #1',
 			logo: { src: '/public/favicon.svg', replacesTitle: false, },
+			tableOfContents: false,
 			social: [],
 			plugins: [
 				catppuccin({
