@@ -12,15 +12,15 @@ export default defineConfig({
 			logo: { src: '/public/favicon.svg', replacesTitle: false, },
 			tableOfContents: false,
 			social: [],
-			customCss: [
-				'./src/style/main.css'
-			],
-			// plugins: [
-			// 	catppuccin({
-			// 		dark: { flavor: "mocha", accent: "red" },
-			// 		light: { flavor: "latte", accent: "red" }
-			// 	})
+			// customCss: [
+			// 	'./src/style/main.css'
 			// ],
+			plugins: [
+				catppuccin({
+					dark: { flavor: "mocha", accent: "red" },
+					light: { flavor: "latte", accent: "red" }
+				})
+			],
 			sidebar: [
 				{
 					label: '😀 Introduction',
